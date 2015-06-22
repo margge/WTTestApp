@@ -10,16 +10,16 @@ Just an app where you can find:
 
 Start view
 =========
-![screenshot](http://i.imgur.com/eDoGRZR.png)
+![screenshot](http://i.imgur.com/060mXom.png)
 Sign up
 =========
-![screenshot](http://imgur.com/JEvT7pe.png)
+![screenshot](http://i.imgur.com/AfnSXcb.png)
 Map
 =========
-![screenshot](http://i.imgur.com/k2sdyvk.png)
+![screenshot](http://i.imgur.com/FCcxdzN.png)
 Profile
 =========
-![screenshot](http://i.imgur.com/IMe8fMm.png)
+![screenshot](http://i.imgur.com/xr8MVOU.png)
 Authentication
 =========
-![screenshot](http://i.imgur.com/zfvYLPJ.png)
+![screenshot](http://i.imgur.com/WycCnte.png)
