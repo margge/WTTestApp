@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  wt_login
 //
-//  Created by Margge Guiza on 6/20/15.
+//  Created by Margge Guiza
 //  Copyright (c) 2015 Margge Guiza. All rights reserved.
 //
 
@@ -19,7 +19,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 

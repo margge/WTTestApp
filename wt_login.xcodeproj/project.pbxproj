@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2395440C1B377B2500C478C4 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2395440B1B377B2500C478C4 /* SwiftyJSON.swift */; };
+		2395440E1B383CEC00C478C4 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2395440D1B383CEC00C478C4 /* AppConstants.swift */; };
+		239544101B38495900C478C4 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2395440F1B38495900C478C4 /* UserModel.swift */; };
 		23B2072F1B35B8DC0003ACAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B2072E1B35B8DC0003ACAE /* AppDelegate.swift */; };
 		23B207311B35B8DC0003ACAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B207301B35B8DC0003ACAE /* ViewController.swift */; };
 		23B207341B35B8DC0003ACAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23B207321B35B8DC0003ACAE /* Main.storyboard */; };
 		23B207361B35B8DC0003ACAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B207351B35B8DC0003ACAE /* Images.xcassets */; };
 		23B207391B35B8DC0003ACAE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23B207371B35B8DC0003ACAE /* LaunchScreen.xib */; };
 		23B207451B35B8DC0003ACAE /* wt_loginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B207441B35B8DC0003ACAE /* wt_loginTests.swift */; };
+		23B207531B35BBD50003ACAE /* WTSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B207521B35BBD50003ACAE /* WTSignUpViewController.swift */; };
+		23B207551B35C11A0003ACAE /* WTLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B207541B35C11A0003ACAE /* WTLoginViewController.swift */; };
+		23B207571B35C16E0003ACAE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B207561B35C16E0003ACAE /* MainViewController.swift */; };
+		23B207591B35C2090003ACAE /* WTNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B207581B35C2090003ACAE /* WTNavigation.swift */; };
+		23B2075F1B35EA360003ACAE /* WTEditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B2075E1B35EA360003ACAE /* WTEditProfileViewController.swift */; };
+		99FA15F0AF8827ECFCF8FD4D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 858F23850A50CE4559070439 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		239544071B376AAB00C478C4 /* wt_login-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wt_login-Bridging-Header.h"; sourceTree = "<group>"; };
+		2395440B1B377B2500C478C4 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		2395440D1B383CEC00C478C4 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		2395440F1B38495900C478C4 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		23B207291B35B8DC0003ACAE /* wt_login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wt_login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23B2072D1B35B8DC0003ACAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23B2072E1B35B8DC0003ACAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +49,14 @@
 		23B2073E1B35B8DC0003ACAE /* wt_loginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wt_loginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23B207431B35B8DC0003ACAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23B207441B35B8DC0003ACAE /* wt_loginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wt_loginTests.swift; sourceTree = "<group>"; };
+		23B207521B35BBD50003ACAE /* WTSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTSignUpViewController.swift; sourceTree = "<group>"; };
+		23B207541B35C11A0003ACAE /* WTLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTLoginViewController.swift; sourceTree = "<group>"; };
+		23B207561B35C16E0003ACAE /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		23B207581B35C2090003ACAE /* WTNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTNavigation.swift; sourceTree = "<group>"; };
+		23B2075E1B35EA360003ACAE /* WTEditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTEditProfileViewController.swift; sourceTree = "<group>"; };
+		8556A477E6A0337E8964F203 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		858F23850A50CE4559070439 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4E6369625E39A9B4BADF23 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99FA15F0AF8827ECFCF8FD4D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +81,12 @@
 		23B207201B35B8DC0003ACAE = {
 			isa = PBXGroup;
 			children = (
+				2395440B1B377B2500C478C4 /* SwiftyJSON.swift */,
 				23B2072B1B35B8DC0003ACAE /* wt_login */,
 				23B207411B35B8DC0003ACAE /* wt_loginTests */,
 				23B2072A1B35B8DC0003ACAE /* Products */,
+				7D93C347320B36CFAC5E573E /* Pods */,
+				DDF60C3E7C538CFB2DE1CD0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +108,14 @@
 				23B207351B35B8DC0003ACAE /* Images.xcassets */,
 				23B207371B35B8DC0003ACAE /* LaunchScreen.xib */,
 				23B2072C1B35B8DC0003ACAE /* Supporting Files */,
+				23B207521B35BBD50003ACAE /* WTSignUpViewController.swift */,
+				23B207541B35C11A0003ACAE /* WTLoginViewController.swift */,
+				23B207561B35C16E0003ACAE /* MainViewController.swift */,
+				23B207581B35C2090003ACAE /* WTNavigation.swift */,
+				23B2075E1B35EA360003ACAE /* WTEditProfileViewController.swift */,
+				239544071B376AAB00C478C4 /* wt_login-Bridging-Header.h */,
+				2395440D1B383CEC00C478C4 /* AppConstants.swift */,
+				2395440F1B38495900C478C4 /* UserModel.swift */,
 			);
 			path = wt_login;
 			sourceTree = "<group>";
@@ -112,6 +145,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7D93C347320B36CFAC5E573E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8556A477E6A0337E8964F203 /* Pods.debug.xcconfig */,
+				BE4E6369625E39A9B4BADF23 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DDF60C3E7C538CFB2DE1CD0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				858F23850A50CE4559070439 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23B207481B35B8DC0003ACAE /* Build configuration list for PBXNativeTarget "wt_login" */;
 			buildPhases = (
+				AE26BAF89F338F10585F2D56 /* Check Pods Manifest.lock */,
 				23B207251B35B8DC0003ACAE /* Sources */,
 				23B207261B35B8DC0003ACAE /* Frameworks */,
 				23B207271B35B8DC0003ACAE /* Resources */,
+				240251826E3C273D0D43008B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,13 +259,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		240251826E3C273D0D43008B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE26BAF89F338F10585F2D56 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		23B207251B35B8DC0003ACAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				23B207311B35B8DC0003ACAE /* ViewController.swift in Sources */,
+				2395440E1B383CEC00C478C4 /* AppConstants.swift in Sources */,
+				23B207551B35C11A0003ACAE /* WTLoginViewController.swift in Sources */,
+				23B207591B35C2090003ACAE /* WTNavigation.swift in Sources */,
+				2395440C1B377B2500C478C4 /* SwiftyJSON.swift in Sources */,
+				23B2075F1B35EA360003ACAE /* WTEditProfileViewController.swift in Sources */,
+				23B207531B35BBD50003ACAE /* WTSignUpViewController.swift in Sources */,
 				23B2072F1B35B8DC0003ACAE /* AppDelegate.swift in Sources */,
+				239544101B38495900C478C4 /* UserModel.swift in Sources */,
+				23B207571B35C16E0003ACAE /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,21 +433,28 @@
 		};
 		23B207491B35B8DC0003ACAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8556A477E6A0337E8964F203 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = wt_login/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "wt_login/wt_login-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		23B2074A1B35B8DC0003ACAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE4E6369625E39A9B4BADF23 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = wt_login/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "wt_login/wt_login-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +511,7 @@
 				23B2074A1B35B8DC0003ACAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23B2074B1B35B8DC0003ACAE /* Build configuration list for PBXNativeTarget "wt_loginTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +520,7 @@
 				23B2074D1B35B8DC0003ACAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
