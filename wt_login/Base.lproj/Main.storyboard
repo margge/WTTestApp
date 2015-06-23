@@ -45,8 +45,8 @@
                                     <segue destination="nJc-aW-9n6" kind="modal" id="GeG-Oh-FPT"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WideTech Test App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f94-tS-52a">
-                                <rect key="frame" x="76" y="70" width="168" height="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="WT Test App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f94-tS-52a">
+                                <rect key="frame" x="76" y="70" width="112" height="23"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <color key="textColor" red="0.36370923820000001" green="0.60450343019999997" blue="0.84943181820000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -94,12 +94,12 @@
                                     <segue destination="BYZ-38-t0r" kind="modal" id="QTe-bR-Z0v"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="44dmendez@widetech.com.co" borderStyle="roundedRect" placeholder="Mail" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ybc-Fq-RjV">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mail" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ybc-Fq-RjV">
                                 <rect key="frame" x="45" y="195" width="230" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="12345" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HKY-vc-vwE">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HKY-vc-vwE">
                                 <rect key="frame" x="45" y="234" width="230" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
@@ -176,34 +176,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Adriana" borderStyle="roundedRect" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PLe-5s-St7">
-                                <rect key="frame" x="44" y="159" width="232" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PLe-5s-St7">
+                                <rect key="frame" x="45" y="159" width="232" height="30"/>
                                 <accessibility key="accessibilityConfiguration" hint=""/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Mendez" borderStyle="roundedRect" placeholder="Lastname" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nPX-g2-WBa">
-                                <rect key="frame" x="45" y="203" width="230" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Lastname" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nPX-g2-WBa">
+                                <rect key="frame" x="45" y="204" width="230" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="maria31@widetech.com.co" borderStyle="roundedRect" placeholder="Mail" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EpS-RK-I7i">
-                                <rect key="frame" x="45" y="247" width="230" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mail" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EpS-RK-I7i">
+                                <rect key="frame" x="45" y="249" width="230" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Cll 23 - 33-33" borderStyle="roundedRect" placeholder="Address" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8ez-Gr-xiH">
-                                <rect key="frame" x="45" y="293" width="230" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Address" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8ez-Gr-xiH">
+                                <rect key="frame" x="45" y="294" width="230" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="3103117143" borderStyle="roundedRect" placeholder="Phone" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qsh-Fp-LcC">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qsh-Fp-LcC">
                                 <rect key="frame" x="45" y="339" width="230" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
                             </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8mn-UW-NMP">
+                                <rect key="frame" x="45" y="384" width="230" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Verify password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g9D-bz-cxP">
+                                <rect key="frame" x="45" y="429" width="230" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I78-3j-vkH">
-                                <rect key="frame" x="30" y="429" width="260" height="45"/>
+                                <rect key="frame" x="30" y="503" width="260" height="45"/>
                                 <color key="backgroundColor" red="0.36370923820000001" green="0.60450343019999997" blue="0.84943181820000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="sGA-pB-CrQ"/>
@@ -245,31 +255,37 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="EpS-RK-I7i" firstAttribute="top" secondItem="nPX-g2-WBa" secondAttribute="bottom" constant="14" id="1u8-YB-lAa"/>
-                            <constraint firstItem="PLe-5s-St7" firstAttribute="leading" secondItem="kSP-8Y-poP" secondAttribute="leading" constant="44" id="80v-4o-9cS"/>
-                            <constraint firstItem="Qsh-Fp-LcC" firstAttribute="top" secondItem="8ez-Gr-xiH" secondAttribute="bottom" constant="16" id="8sF-EB-Aou"/>
+                            <constraint firstItem="EpS-RK-I7i" firstAttribute="top" secondItem="nPX-g2-WBa" secondAttribute="bottom" constant="15" id="1u8-YB-lAa"/>
+                            <constraint firstItem="PLe-5s-St7" firstAttribute="leading" secondItem="kSP-8Y-poP" secondAttribute="leading" constant="45" id="80v-4o-9cS"/>
+                            <constraint firstItem="Qsh-Fp-LcC" firstAttribute="top" secondItem="8ez-Gr-xiH" secondAttribute="bottom" constant="15" id="8sF-EB-Aou"/>
                             <constraint firstItem="EpS-RK-I7i" firstAttribute="leading" secondItem="kSP-8Y-poP" secondAttribute="leading" constant="45" id="8sm-xl-HET"/>
                             <constraint firstItem="Rtl-QN-cEZ" firstAttribute="top" secondItem="WkW-5j-F2d" secondAttribute="bottom" constant="35" id="Dch-yn-TYG"/>
                             <constraint firstItem="8ez-Gr-xiH" firstAttribute="leading" secondItem="kSP-8Y-poP" secondAttribute="leading" constant="45" id="EQx-8c-7Zo"/>
                             <constraint firstAttribute="trailing" secondItem="8ez-Gr-xiH" secondAttribute="trailing" constant="45" id="Guh-KM-dQM"/>
-                            <constraint firstAttribute="trailing" secondItem="PLe-5s-St7" secondAttribute="trailing" constant="44" id="MrW-no-aGs"/>
+                            <constraint firstAttribute="trailing" secondItem="PLe-5s-St7" secondAttribute="trailing" constant="43" id="MrW-no-aGs"/>
                             <constraint firstAttribute="trailing" secondItem="Qsh-Fp-LcC" secondAttribute="trailing" constant="45" id="UFS-K1-DhI"/>
+                            <constraint firstAttribute="trailing" secondItem="g9D-bz-cxP" secondAttribute="trailing" constant="45" id="UjS-Ro-IxV"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Rtl-QN-cEZ" secondAttribute="trailing" constant="50" id="aBH-JB-V16"/>
                             <constraint firstItem="I78-3j-vkH" firstAttribute="leading" secondItem="kSP-8Y-poP" secondAttribute="leading" constant="30" id="asE-bp-pWr"/>
                             <constraint firstItem="nPX-g2-WBa" firstAttribute="leading" secondItem="kSP-8Y-poP" secondAttribute="leading" constant="45" id="cMW-7x-fZ1"/>
                             <constraint firstItem="Qsh-Fp-LcC" firstAttribute="leading" secondItem="kSP-8Y-poP" secondAttribute="leading" constant="45" id="cnh-S3-woy"/>
                             <constraint firstItem="Rtl-QN-cEZ" firstAttribute="leading" secondItem="kSP-8Y-poP" secondAttribute="leadingMargin" constant="51" id="dLy-jz-pYr"/>
+                            <constraint firstItem="8mn-UW-NMP" firstAttribute="leading" secondItem="kSP-8Y-poP" secondAttribute="leading" constant="45" id="epA-c7-G9L"/>
                             <constraint firstItem="uyB-RP-37l" firstAttribute="leading" secondItem="kSP-8Y-poP" secondAttribute="leading" constant="33" id="f6Q-pb-Ag0"/>
                             <constraint firstAttribute="trailing" secondItem="I78-3j-vkH" secondAttribute="trailing" constant="30" id="gua-2L-7qd"/>
                             <constraint firstAttribute="trailing" secondItem="uyB-RP-37l" secondAttribute="trailing" constant="34" id="iHG-DX-lA7"/>
                             <constraint firstItem="xff-qZ-rFH" firstAttribute="top" secondItem="WkW-5j-F2d" secondAttribute="bottom" constant="5" id="jXh-Py-AWn"/>
                             <constraint firstItem="PLe-5s-St7" firstAttribute="top" secondItem="uyB-RP-37l" secondAttribute="bottom" constant="34" id="kW9-PL-rkT"/>
+                            <constraint firstAttribute="trailing" secondItem="8mn-UW-NMP" secondAttribute="trailing" constant="45" id="lRw-F4-rfg"/>
                             <constraint firstItem="xff-qZ-rFH" firstAttribute="leading" secondItem="kSP-8Y-poP" secondAttribute="leading" constant="16" id="nFk-rU-j5X"/>
                             <constraint firstAttribute="trailing" secondItem="EpS-RK-I7i" secondAttribute="trailing" constant="45" id="ntL-7M-IPk"/>
                             <constraint firstAttribute="trailing" secondItem="nPX-g2-WBa" secondAttribute="trailing" constant="45" id="oVr-Yg-VRy"/>
-                            <constraint firstItem="8ez-Gr-xiH" firstAttribute="top" secondItem="EpS-RK-I7i" secondAttribute="bottom" constant="16" id="scP-Dl-Ch0"/>
-                            <constraint firstItem="I78-3j-vkH" firstAttribute="top" secondItem="Qsh-Fp-LcC" secondAttribute="bottom" constant="60" id="tU3-Md-1Jv"/>
-                            <constraint firstItem="nPX-g2-WBa" firstAttribute="top" secondItem="PLe-5s-St7" secondAttribute="bottom" constant="14" id="tVc-X2-kJw"/>
+                            <constraint firstItem="8mn-UW-NMP" firstAttribute="top" secondItem="Qsh-Fp-LcC" secondAttribute="bottom" constant="15" id="rqO-NT-jHg"/>
+                            <constraint firstItem="8ez-Gr-xiH" firstAttribute="top" secondItem="EpS-RK-I7i" secondAttribute="bottom" constant="15" id="scP-Dl-Ch0"/>
+                            <constraint firstItem="I78-3j-vkH" firstAttribute="top" secondItem="Qsh-Fp-LcC" secondAttribute="bottom" constant="134" id="tU3-Md-1Jv"/>
+                            <constraint firstItem="nPX-g2-WBa" firstAttribute="top" secondItem="PLe-5s-St7" secondAttribute="bottom" constant="15" id="tVc-X2-kJw"/>
+                            <constraint firstItem="g9D-bz-cxP" firstAttribute="leading" secondItem="kSP-8Y-poP" secondAttribute="leading" constant="45" id="zq4-6P-aGk"/>
+                            <constraint firstItem="g9D-bz-cxP" firstAttribute="top" secondItem="8mn-UW-NMP" secondAttribute="bottom" constant="15" id="zrr-OH-AiH"/>
                             <constraint firstItem="uyB-RP-37l" firstAttribute="top" secondItem="Rtl-QN-cEZ" secondAttribute="bottom" constant="29" id="zxk-uL-TO2"/>
                         </constraints>
                     </view>
@@ -277,8 +293,10 @@
                         <outlet property="addressTextField" destination="8ez-Gr-xiH" id="d0Y-m4-B2Q"/>
                         <outlet property="emailTextField" destination="EpS-RK-I7i" id="mVw-ZE-2sU"/>
                         <outlet property="lastNameTextField" destination="nPX-g2-WBa" id="yqT-iD-HDm"/>
-                        <outlet property="phoneTextField" destination="Qsh-Fp-LcC" id="tTU-U1-ndE"/>
+                        <outlet property="passwordTextField" destination="8mn-UW-NMP" id="KVa-LA-sqe"/>
+                        <outlet property="phoneTextField" destination="Qsh-Fp-LcC" id="5xZ-TY-0tz"/>
                         <outlet property="userNameTextField" destination="PLe-5s-St7" id="gde-u5-cXC"/>
+                        <outlet property="verifyPasswordTextField" destination="g9D-bz-cxP" id="YvA-qg-LcW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aJW-dB-1Lk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -330,7 +348,7 @@
                                     <constraint firstAttribute="height" constant="392" id="XeO-6O-Cor"/>
                                 </constraints>
                             </mapView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WideTech Test App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i5F-fJ-2zP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WT Test App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i5F-fJ-2zP">
                                 <rect key="frame" x="67" y="30" width="187" height="23"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <color key="textColor" red="0.36370923820000001" green="0.60450343019999997" blue="0.84943181820000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -394,7 +412,7 @@
                                 <color key="textColor" red="0.36370923820000001" green="0.60450343019999997" blue="0.84943181820000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Adriana" borderStyle="roundedRect" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g63-WX-kRf">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g63-WX-kRf">
                                 <rect key="frame" x="44" y="142" width="232" height="30"/>
                                 <accessibility key="accessibilityConfiguration" hint=""/>
                                 <constraints>
@@ -403,22 +421,22 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Mendez" borderStyle="roundedRect" placeholder="Lastname" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IU6-rq-j4P">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Lastname" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IU6-rq-j4P">
                                 <rect key="frame" x="45" y="186" width="230" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="maria31@widetech.com.co" borderStyle="roundedRect" placeholder="Mail" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NDL-h4-ysg">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mail" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NDL-h4-ysg">
                                 <rect key="frame" x="45" y="230" width="230" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Cll 23 - 33-33" borderStyle="roundedRect" placeholder="Address" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1xj-pE-ogT">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Address" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1xj-pE-ogT">
                                 <rect key="frame" x="45" y="276" width="230" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="3103117143" borderStyle="roundedRect" placeholder="Phone" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SGN-DF-b7E">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SGN-DF-b7E">
                                 <rect key="frame" x="45" y="322" width="230" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
@@ -467,7 +485,7 @@
                     <connections>
                         <outlet property="addressTextField" destination="1xj-pE-ogT" id="e42-u3-EY8"/>
                         <outlet property="emailTextField" destination="NDL-h4-ysg" id="JE6-VV-HXH"/>
-                        <outlet property="lastnameEditText" destination="NDL-h4-ysg" id="u4m-wY-u1P"/>
+                        <outlet property="lastnameEditText" destination="IU6-rq-j4P" id="Fkm-gb-D9P"/>
                         <outlet property="phoneTextField" destination="SGN-DF-b7E" id="X3p-DV-Drj"/>
                         <outlet property="usernameTextField" destination="g63-WX-kRf" id="B56-0q-ZmT"/>
                     </connections>

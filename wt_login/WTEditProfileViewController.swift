@@ -19,11 +19,20 @@ class WTEditProfileViewController: UIViewController {
     var userProfile: UserModel = UserModel()
     
     override func viewDidLoad() {
-        super.viewDidLoad()        
+        super.viewDidLoad()
+        setUserInfo()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+    }
+    
+    func setUserInfo(){
+        usernameTextField.text = userProfile.username
+        lastnameEditText.text = userProfile.lastname
+        emailTextField.text = userProfile.mail
+        addressTextField.text = userProfile.address
+        phoneTextField.text = userProfile.phone
     }
     
     @IBAction func updateProfile(sender: AnyObject) {

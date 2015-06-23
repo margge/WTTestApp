@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3F76DA4A-FE75-46D9-80ED-078AF372507C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>wt_login</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EC7B7C267CFC01D8575B0E32878B177C57370A7A</key>
+		<string>https://github.com/margge/WTTestApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>wt_login.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EC7B7C267CFC01D8575B0E32878B177C57370A7A</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/margge/WTTestApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EC7B7C267CFC01D8575B0E32878B177C57370A7A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EC7B7C267CFC01D8575B0E32878B177C57370A7A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>wt_login</string>
+		</dict>
+	</array>
+</dict>
+</plist>

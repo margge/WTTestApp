@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2395440C1B377B2500C478C4 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2395440B1B377B2500C478C4 /* SwiftyJSON.swift */; };
-		2395440E1B383CEC00C478C4 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2395440D1B383CEC00C478C4 /* AppConstants.swift */; };
 		239544101B38495900C478C4 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2395440F1B38495900C478C4 /* UserModel.swift */; };
+		239544171B399F4C00C478C4 /* WTAppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239544161B399F4C00C478C4 /* WTAppUtils.swift */; };
+		239544191B39A43400C478C4 /* WTAppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239544181B39A43400C478C4 /* WTAppConstants.swift */; };
 		23B2072F1B35B8DC0003ACAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B2072E1B35B8DC0003ACAE /* AppDelegate.swift */; };
 		23B207311B35B8DC0003ACAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B207301B35B8DC0003ACAE /* ViewController.swift */; };
 		23B207341B35B8DC0003ACAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23B207321B35B8DC0003ACAE /* Main.storyboard */; };
@@ -37,8 +38,9 @@
 /* Begin PBXFileReference section */
 		239544071B376AAB00C478C4 /* wt_login-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wt_login-Bridging-Header.h"; sourceTree = "<group>"; };
 		2395440B1B377B2500C478C4 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
-		2395440D1B383CEC00C478C4 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		2395440F1B38495900C478C4 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		239544161B399F4C00C478C4 /* WTAppUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTAppUtils.swift; sourceTree = "<group>"; };
+		239544181B39A43400C478C4 /* WTAppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTAppConstants.swift; sourceTree = "<group>"; };
 		23B207291B35B8DC0003ACAE /* wt_login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wt_login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23B2072D1B35B8DC0003ACAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23B2072E1B35B8DC0003ACAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		239544151B399F2C00C478C4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				239544161B399F4C00C478C4 /* WTAppUtils.swift */,
+				239544181B39A43400C478C4 /* WTAppConstants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		23B207201B35B8DC0003ACAE = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +113,7 @@
 		23B2072B1B35B8DC0003ACAE /* wt_login */ = {
 			isa = PBXGroup;
 			children = (
+				239544151B399F2C00C478C4 /* Utils */,
 				23B2072E1B35B8DC0003ACAE /* AppDelegate.swift */,
 				23B207301B35B8DC0003ACAE /* ViewController.swift */,
 				23B207321B35B8DC0003ACAE /* Main.storyboard */,
@@ -114,7 +126,6 @@
 				23B207581B35C2090003ACAE /* WTNavigation.swift */,
 				23B2075E1B35EA360003ACAE /* WTEditProfileViewController.swift */,
 				239544071B376AAB00C478C4 /* wt_login-Bridging-Header.h */,
-				2395440D1B383CEC00C478C4 /* AppConstants.swift */,
 				2395440F1B38495900C478C4 /* UserModel.swift */,
 			);
 			path = wt_login;
@@ -297,8 +308,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				239544191B39A43400C478C4 /* WTAppConstants.swift in Sources */,
 				23B207311B35B8DC0003ACAE /* ViewController.swift in Sources */,
-				2395440E1B383CEC00C478C4 /* AppConstants.swift in Sources */,
+				239544171B399F4C00C478C4 /* WTAppUtils.swift in Sources */,
 				23B207551B35C11A0003ACAE /* WTLoginViewController.swift in Sources */,
 				23B207591B35C2090003ACAE /* WTNavigation.swift in Sources */,
 				2395440C1B377B2500C478C4 /* SwiftyJSON.swift in Sources */,
